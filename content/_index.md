@@ -3,10 +3,10 @@ title: "Home"
 page: false
 ---
 
-# DLSPH & IHPME Data Working Group
+# DLSPH Data Working Group
 
 ## Aim and scope
 
-## Potencial topics
+## Potential topics
 
 ## Get in touch with us
