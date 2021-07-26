@@ -1,0 +1,9 @@
+[submodule "themes/hugo-snap-gallery"]
+	path = themes/hugo-snap-gallery
+	url = https://src.mehl.mx/mxmehl/hugo-snap-gallery.git
+[submodule "themes/hugo-cloak-email"]
+	path = themes/hugo-cloak-email
+	url = https://github.com/martignoni/hugo-cloak-email.git
+[submodule "themes/hugo-dpsg"]
+	path = themes/hugo-dpsg
+	url = https://github.com/pfadfinder-konstanz/hugo-dpsg.git
