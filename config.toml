@@ -1,5 +1,5 @@
-baseurl = "https://dlsph-data-working-group.github.io/"
-title = "DLSPH DATA WORKING GROUP"
+baseurl = "https://health-data-working-group.github.io/"
+title = "Health DATA WORKING GROUP"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "hugo-dpsg"
@@ -25,7 +25,7 @@ theme = "hugo-dpsg"
 [Params.logo]
   image = "" # Logo image. Path relative to "static"
   header = "" # Header image. Path relative to "static"
-  title = "DLSPH Data Working Group" # Logo title, otherwise will use site title
+  title = "Health Data Working Group" # Logo title, otherwise will use site title
   subtitle = "" # Logo subtitle
 
 [Params.sidebar]

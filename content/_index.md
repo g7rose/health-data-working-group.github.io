@@ -3,7 +3,7 @@ title: "Home"
 page: false
 ---
 
-# DLSPH Data Working Group
+# Health Data Working Group
 
 ## Aim and scope
 

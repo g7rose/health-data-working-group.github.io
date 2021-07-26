@@ -7,4 +7,4 @@ sidebar: false
 About the team
 
 
-list of members with photo, affiliation, and link to personal website
+list of members with photo, affiliation, short-bio and link to personal website
