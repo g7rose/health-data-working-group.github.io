@@ -55,3 +55,4 @@ file.copy(from="public", to="docs", overwrite=TRUE, recursive=FALSE)
 I don't know how to do this in R. @Kuan, can you write something here? You can also put a photo to show where to click in the RStudio console.
 
 ### Using Terminal
+
