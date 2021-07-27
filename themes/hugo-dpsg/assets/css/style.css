@@ -1,10 +1,3 @@
-{{- $highlightColor := .Site.Params.style.vars.highlightColor | default (.Site.Params.highlightColor | default "#e22d30") -}}
-
-{{- $fontSans := `"Open Sans", Helvetica, Arial, sans-serif` -}}
-{{- $fontMono := `SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace` -}}
-{{- $fontFamilyPrimary := .Site.Params.style.vars.fontFamilyPrimary | default $fontSans -}}
-{{- $fontFamilySecondary := .Site.Params.style.vars.fontFamilySecondary | default $fontMono -}}
-
 *,
 *::before,
 *::after {
@@ -50,8 +43,8 @@ section {
   font-style: normal;
   font-weight: 300;
   src: local('Open Sans Light'), local('OpenSans-Light'),
-       url('{{ "fonts/open-sans-v18-latin-300.woff2" | absURL }}') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('{{ "fonts/open-sans-v18-latin-300.woff" | absURL }}') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* open-sans-300italic - latin */
@@ -60,8 +53,8 @@ section {
   font-style: italic;
   font-weight: 300;
   src: local('Open Sans Light Italic'), local('OpenSans-LightItalic'),
-       url('{{ "/fonts/open-sans-v18-latin-300italic.woff2" | absURL }}') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('{{ "/fonts/open-sans-v18-latin-300italic.woff" | absURL }}') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-300italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-300italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* open-sans-regular - latin */
@@ -70,8 +63,8 @@ section {
   font-style: normal;
   font-weight: 400;
   src: local('Open Sans Regular'), local('OpenSans-Regular'),
-       url('{{ "/fonts/open-sans-v18-latin-regular.woff2" | absURL }}') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('{{ "/fonts/open-sans-v18-latin-regular.woff" | absURL }}') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* open-sans-italic - latin */
@@ -80,8 +73,8 @@ section {
   font-style: italic;
   font-weight: 400;
   src: local('Open Sans Italic'), local('OpenSans-Italic'),
-       url('{{ "/fonts/open-sans-v18-latin-italic.woff2" | absURL }}') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('{{ "/fonts/open-sans-v18-latin-italic.woff" | absURL }}') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* open-sans-600 - latin */
@@ -90,8 +83,8 @@ section {
   font-style: normal;
   font-weight: 600;
   src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
-       url('{{ "/fonts/open-sans-v18-latin-600.woff2" | absURL }}') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('{{ "/fonts/open-sans-v18-latin-600.woff" | absURL }}') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* open-sans-600italic - latin */
@@ -100,8 +93,8 @@ section {
   font-style: italic;
   font-weight: 600;
   src: local('Open Sans SemiBold Italic'), local('OpenSans-SemiBoldItalic'),
-       url('{{ "/fonts/open-sans-v18-latin-600italic.woff2" | absURL }}') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('{{ "/fonts/open-sans-v18-latin-600italic.woff" | absURL }}') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-600italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-600italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* open-sans-700 - latin */
@@ -110,8 +103,8 @@ section {
   font-style: normal;
   font-weight: 700;
   src: local('Open Sans Bold'), local('OpenSans-Bold'),
-       url('{{ "/fonts/open-sans-v18-latin-700.woff2" | absURL }}') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('{{ "/fonts/open-sans-v18-latin-700.woff" | absURL }}') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* open-sans-700italic - latin */
@@ -120,8 +113,8 @@ section {
   font-style: italic;
   font-weight: 700;
   src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
-       url('{{ "/fonts/open-sans-v18-latin-700italic.woff2" | absURL }}') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('{{ "/fonts/open-sans-v18-latin-700italic.woff" | absURL }}') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-700italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('https://dlsph-data-working-group.github.io/fonts/open-sans-v18-latin-700italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* merriweather-regular - latin */
@@ -130,8 +123,8 @@ section {
   font-style: normal;
   font-weight: 400;
   src: local('Merriweather Regular'), local('Merriweather-Regular'),
-       url('{{ "/fonts/merriweather-v22-latin-regular.woff2" | absURL }}') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('{{ "/fonts/merriweather-v22-latin-regular.woff" | absURL }}') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('https://dlsph-data-working-group.github.io/fonts/merriweather-v22-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('https://dlsph-data-working-group.github.io/fonts/merriweather-v22-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* merriweather-700 - latin */
@@ -140,8 +133,8 @@ section {
   font-style: normal;
   font-weight: 700;
   src: local('Merriweather Bold'), local('Merriweather-Bold'),
-       url('{{ "/fonts/merriweather-v22-latin-700.woff2" | absURL }}') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('{{ "/fonts/merriweather-v22-latin-700.woff" | absURL }}') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('https://dlsph-data-working-group.github.io/fonts/merriweather-v22-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('https://dlsph-data-working-group.github.io/fonts/merriweather-v22-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 
@@ -155,7 +148,7 @@ html {
 body {
 	color: #1a1a1a;
 	margin: 0;
-	font-family: {{ $fontFamilyPrimary }};
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	font-size: .875rem;
 	line-height: 1.6;
@@ -249,7 +242,7 @@ textarea {
 
 .btn:hover {
 	color: #fff;
-	background: {{ $highlightColor }};
+	background: #008CB0;
 }
 
 /* Typography */
@@ -297,12 +290,12 @@ h6 {
 }
 
 a {
-	color: {{ $highlightColor }};
+	color: #008CB0;
 	text-decoration: none;
 }
 
 a:hover {
-	color: {{ $highlightColor }};
+	color: #008CB0;
 }
 
 hr {
@@ -363,7 +356,7 @@ pre,
 code,
 kbd,
 samp {
-	font-family: {{ $fontFamilySecondary }};
+	font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 	font-size: inherit;
 }
 
@@ -408,7 +401,7 @@ blockquote {
 	margin: 0 0 20px;
 	margin: 0 0 1.25rem;
 	line-height: 1.6;
-	border-left: 5px solid {{ $highlightColor }};
+	border-left: 5px solid #008CB0;
 }
 
 blockquote p:last-child {
@@ -492,9 +485,7 @@ select {
 
 .logo {
 	padding: 25px;
-	{{ with .Site.Params.logo.header -}}
-	background: url({{ . | absURL }}) center/cover no-repeat
-	{{- end }}
+	
 }
 
 .logo__link {
@@ -544,7 +535,7 @@ select {
 	font-size: .875rem;
 	font-weight: 700;
 	line-height: 1;
-	color: {{ $highlightColor }};
+	color: #008CB0;
 	text-shadow: 0px 0px 5px #fff;
 	border-top: 1px solid #9d9d9d;
 }
@@ -552,7 +543,7 @@ select {
 .divider {
 	height: 5px;
 	margin: 0;
-	background: {{ $highlightColor }};
+	background: #008CB0;
 	border: 0;
 }
 
@@ -562,7 +553,7 @@ select {
   position: -webkit-sticky;
   top: 0;
   z-index: 1;
-	background: {{ $highlightColor }};
+	background: #008CB0;
 	line-height: 1.5;
 	padding: 0;
 }
@@ -577,7 +568,7 @@ select {
 	padding: 0;
 	font: inherit;
 	color: #fff;
-	background: {{ $highlightColor }};
+	background: #008CB0;
 	border: 0;
 	outline: 0;
 }
@@ -599,7 +590,7 @@ select {
 }
 
 :focus > .menu__btn-title {
-	box-shadow: inset 0 0 1px 3px {{ $highlightColor }};
+	box-shadow: inset 0 0 1px 3px #008CB0;
 }
 
 button:not(:-moz-focusring):focus > .menu__btn-title {
@@ -620,7 +611,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .menu__item:hover {
-	background: {{ $highlightColor }};
+	background: #008CB0;
 }
 
 .menu__item:first-child {
@@ -674,7 +665,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .js .menu__list--active {
-	background: {{ $highlightColor }};
+	background: #008CB0;
 	visibility: visible;
 	border-top: 1px solid rgba(255, 255, 255, .1);
 	border-bottom: 1px solid rgba(255, 255, 255, .1);
@@ -694,7 +685,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 	/* move left arrow to bottom */
 	.menu__link::after {
-		border-left-color: {{ $highlightColor }};
+		border-left-color: #008CB0;
 		border-bottom-color: #ffffff;
 		position: absolute;
 		bottom: 0;
@@ -771,7 +762,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .meta a:hover {
-	color: {{ $highlightColor }};
+	color: #008CB0;
 }
 
 .meta__item {
@@ -828,13 +819,13 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .warning a,
 .authorbox__description a {
 	font-weight: 700;
-	color: {{ $highlightColor }};
+	color: #008CB0;
 }
 
 .content a:hover,
 .warning a:hover,
 .authorbox__description a:hover {
-	color: {{ $highlightColor }};
+	color: #008CB0;
 	text-decoration: underline;
 }
 
@@ -916,7 +907,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .tags__item:hover {
-	background: {{ $highlightColor }};
+	background: #008CB0;
 }
 
 .tags__link,
@@ -931,7 +922,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	height: 32px;
 	padding: 8px;
 	margin-right: 6px;
-	background: {{ $highlightColor }};
+	background: #008CB0;
 	fill: #fff;
 }
 
@@ -989,7 +980,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .toc__menu a {
 	display: block;
 	padding: 5px 10px;
-	color: {{ $highlightColor }};
+	color: #008CB0;
 	border-bottom: 1px solid #ebebeb;
 }
 
@@ -1077,7 +1068,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .pagination__item:hover,
 .pagination__item--current {
 	color: #fff;
-	background: {{ $highlightColor }};
+	background: #008CB0;
 }
 
 /* Pager (prev/next links) navigation */
@@ -1140,10 +1131,12 @@ table {
 	width: 100%;
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
-	border-spacing: 0;
-	border-collapse: collapse;
+	border-spacing: 5;
+	border-collapse: separate;
+	empty-cells: hide;
 	border-top: 1px solid #ebebeb;
 	border-left: 1px solid #ebebeb;
+
 }
 
 td,
@@ -1199,7 +1192,7 @@ input[type=reset] {
 
 input[type=submit]:hover,
 input[type=reset]:hover {
-	background: {{ $highlightColor }};
+	background: #008CB0;
 }
 
 textarea {
@@ -1228,7 +1221,7 @@ textarea {
 	font-size: 16px;
 	font-size: 1rem;
 	text-transform: uppercase;
-	border-bottom: 3px solid {{ $highlightColor }};
+	border-bottom: 3px solid #008CB0;
 }
 
 .widget__item {
@@ -1307,7 +1300,7 @@ textarea {
 
 .widget-languages__link:hover .widget-languages__link-btn {
 	color: #fff;
-	background: {{ $highlightColor }};
+	background: #008CB0;
 }
 
 .widget-languages__link-btn {
@@ -1479,3 +1472,5 @@ textarea {
 		font-size: .6875rem;
 	}
 }
+
+
