@@ -1134,16 +1134,17 @@ table {
 	border-spacing: 5;
 	border-collapse: separate;
 	empty-cells: hide;
-	border-top: 1px solid #ebebeb;
-	border-left: 1px solid #ebebeb;
+	border-top: 0px solid #ebebeb;
+	border-left: 0px solid #ebebeb;
 
 }
 
 td,
 th {
 	padding: 5px 10px;
-	border-right: 1px solid #ebebeb;
-	border-bottom: 1px solid #ebebeb;
+	empty-cells: hide;
+	border-right: 0px solid #ebebeb;
+	border-bottom: 0px solid #ebebeb;
 }
 
 th {
