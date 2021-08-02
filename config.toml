@@ -1,5 +1,5 @@
 baseurl = "https://health-data-working-group.github.io/"
-title = "Health DATA WORKING GROUP"
+title = "HEALTH DATA WORKING GROUP"
 languageCode = "en-us"
 paginate = "10" # Number of posts per page
 theme = "hugo-dpsg"
